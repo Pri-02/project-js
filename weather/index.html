@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="phone.css">
+    <script src="https://kit.fontawesome.com/1d8ce58e94.js" crossorigin="anonymous"></script>
+   
+</head>
+<body>
+   <div class="container">
+    <div class="header">
+        <form class="search">
+            <input type="text" placeholder="Name the City" class="city"></input>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+        <div class="units">
+            <span class="celsius"> &#8451</span>
+            <span class="fahrenheit">&#8457</span>
+        </div>
+    
+    </div>
+    <div class="body">
+        <h1 class="citybody">India,Delhi</h1>
+        <div class="datentime">Saturday,12 August 2023 10:45 pm</div>
+        <div class="weatherforecast">
+            <p>Clouds</p>
+        </div>
+        <div class="icon">
+            <img src="http://openweathermap.org/img/wn/10d@4x.png"/>
+        </div>
+         <p class="temp">30&#8451</p>
+        <div class="minmax">
+            <p>MAX 20&#8451</p>
+            <p>MIN 40&#8451</p>
+        </div>
+
+    </div>
+    <div class="info">
+       <div class="card">
+        <i class="fa-solid fa-temperature-three-quarters"></i>
+           <div>
+            <p class="realfeel">Real Feel</p>
+            <p>20&#8451</p>
+           </div>
+       </div>
+       <div class="card">
+        <i class="fa-solid fa-droplet"></i>
+           <div>
+            <p>Humidity</p>
+            <p class="humidity">20&#8451</p>
+           </div>
+       </div>
+       <div class="card">
+        <i class="fa-solid fa-wind"></i>
+           <div>
+            <p>Wind</p>
+            <p class="wind">20&#8451</p>
+           </div>
+       </div>
+       <div class="card">
+        <i class="fa-solid fa-gauge-high"></i>
+           <div>
+            <p>Pressure</p>
+            <p class="pressure">20&#8451</p>
+           </div>
+       </div>
+    </div>
+   </div>
+    <script src="app.js"></script>
+</body>
+</html>
