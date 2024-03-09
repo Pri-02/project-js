@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>can you guess the number?</title>
+    <link rel="stylesheet" href="pro3.css">
+</head>
+<body>
+     <img src="https://images.pexels.com/photos/5428834/pexels-photo-5428834.jpeg" alt="Image" class="img">
+    <div class="container">
+        <h1> CAN YOU GUESS THE NUMBER?</h1>
+        <p>Try to guess a number between 1 to 50</p>
+        <p>you have 10 attempts</p>
+        <div>
+            <form class="form">
+                <label for="gnum" id="guess">GUESS THE NUMBER   :</label>
+                <input type="text" id="gnum" class="guessnum">
+                <input type="submit" id="submit" value="submit" class="gusssub">
+            </form>
+            <div class="resultdiv">
+                <h3>previous guesses:<span class="preguess"></span></h3> 
+                <h3>remaining guesses:<span class="remguess">10</span></h3>
+                <p class="loworhigh"></p>
+            </div>
+        </div>
+
+    </div>
+    <script src="pro3.js"></script>
+</body>
+</html>

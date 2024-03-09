@@ -1,0 +1,33 @@
+.img {
+    position: fixed;
+    /* display: flex; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    z-index: 1;
+    width: 50%;
+    margin: 5% auto;
+    padding: 3%;
+    background-color:#dccccc;
+    border-radius: 5px;
+}
+.container h1,p{
+    text-align: center;
+    color:white;
+}
+.resultdiv {
+    color: brown;
+    font-size: medium;
+    text-align: center;
+}
+.form #guess{
+    text-align: center;
+}
